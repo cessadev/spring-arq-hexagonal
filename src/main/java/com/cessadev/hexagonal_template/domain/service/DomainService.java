@@ -5,7 +5,7 @@ package com.cessadev.hexagonal_template.domain.service;
  * They are used when there is logic that involves multiple
  * entities or aggregates, and does not belong to any of them directly.
  *
- * Example:
+ * Example: OrderService
  *
  * public boolean isOrderValid(Order order, Inventory inventory) {
  *    return inventory.hasEnoughStockFor(order.getItems());
