@@ -1,4 +1,4 @@
-package com.cessadev.hexagonal_template.infrastructure.adapter.email;
+package com.cessadev.hexagonal_template.infrastructure.external.email;
 
 import com.cessadev.hexagonal_template.application.domain.ports.out.EmailServicePort;
 import org.springframework.stereotype.Component;
