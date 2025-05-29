@@ -1,10 +1,9 @@
 package com.cessadev.hexagonal_template.application.domain.ports.out;
 
 /**
- * Output ports representing internal technical integration,
- * such as the Redis data caching database.
+ * <p>Output ports representing internal technical integration, such as the Redis data caching database.</p>
  *
- * Its implementation goes in `infrastructure.adapter`.
+ * <p>Its implementation goes in `infrastructure.adapter`.</p>
  */
 public interface DomainCachingPort {
 }

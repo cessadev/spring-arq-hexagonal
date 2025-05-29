@@ -1,14 +1,18 @@
 package com.cessadev.hexagonal_template.application.domain.ports.in;
 
 /**
- * Input ports (methods) are defined to interact with the services or database.
- * This port must be implemented in a use case.
+ * <p>Input ports (methods) are defined to interact with the services or database.
+ * This port must be implemented in a use case.</p>
  *
- * Nomenclature: [Method][Domain]UseCase
- * - GetCustomerUseCase
- * - CreateCustomerUseCase
+ * <p>
+ * Nomenclature: [Method][Domain]UseCase -
+ * Example:
+ * {@code
+ *   GetCustomerUseCase
+ * }
+ * </p>
  *
- * Their implementation goes in `application.domain.usecases`.
+ * <p>Their implementation goes in `application.domain.usecases`.</p>
  */
 public interface MethodDomainUseCase {
 }

@@ -1,13 +1,16 @@
 package com.cessadev.hexagonal_template.domain.repository;
 
 /**
- * Output port (methods) injected by the domain services or a use case to interact with the database.
+ * <p>Output port (methods) injected by the domain services or a use case to interact with the database.</p>
  *
- * Their implementation goes in `infrastructure.persistence.domain`.
+ * <p>Their implementation goes in `infrastructure.persistence.domain`.</p>
  *
- * Example: CustomerRepository
- * - void save(Customer customer);
- * - Optional<Customer> findById(String id);
+ * <p>
+ * Example: CustomerRepository -
+ * {@code
+ * Optional<Customer> findById(Long id);
+ * }
+ * </p>
  */
 public interface DomainRepository {
 }

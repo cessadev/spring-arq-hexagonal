@@ -4,8 +4,10 @@ import com.cessadev.hexagonal_template.application.domain.ports.out.EmailService
 import org.springframework.stereotype.Component;
 
 /**
- * Implementation class (adapter) corresponding to the `EmailServicePort` outgoing port.
+ * <p>Implementation class (adapter) corresponding to the `EmailServicePort` outgoing port.</p>
+ *
+ * <p>Integration with a mailing service such as SendGrid.</p>
  */
 @Component
-public class SmtpEmailAdapter implements EmailServicePort {
+public class SendGridEmailAdapter implements EmailServicePort {
 }

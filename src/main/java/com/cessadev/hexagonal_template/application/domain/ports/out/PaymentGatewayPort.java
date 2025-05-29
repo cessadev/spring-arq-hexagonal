@@ -1,10 +1,9 @@
 package com.cessadev.hexagonal_template.application.domain.ports.out;
 
 /**
- * Another example of an output port representing the interaction of an external service
- * with the application.
+ * <p>Outbound ports representing an external technical integration, such as a payment platform service.</p>
  *
- * Its implementation goes in `infrastructure.external`.
+ * <p>Its implementation goes in `infrastructure.external`.</p>
  */
 public interface PaymentGatewayPort {
 }

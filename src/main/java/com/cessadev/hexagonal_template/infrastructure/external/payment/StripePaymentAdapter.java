@@ -4,10 +4,9 @@ import com.cessadev.hexagonal_template.application.domain.ports.out.PaymentGatew
 import org.springframework.stereotype.Component;
 
 /**
- * Implementation class (adapter) corresponding to the `PaymentGatewayPort` outgoing port.
+ * <p>Implementation class (adapter) corresponding to the `PaymentGatewayPort` outgoing port.</p>
  *
- * Stripe is an online payment platform that allows businesses
- * to accept payments from customers around the world.
+ * <p>Stripe is an online payment platform that allows businesses to accept payments from customers around the world.</p>
  */
 @Component
 public class StripePaymentAdapter implements PaymentGatewayPort {

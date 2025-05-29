@@ -1,21 +1,21 @@
 package com.cessadev.hexagonal_template.domain.service;
 
 /**
- *These are domain services, not application services.
- * They are used when there is logic that involves multiple
- * entities or aggregates, and does not belong to any of them directly.
+ * <p>These are domain services, not application services (use cases).
+ * A domain service is used when you have logic that does not belong to an entity or an aggregate, but is still a fundamental part of the business model.</p>
  *
- * Example: OrderService
- *
+ * <p>
+ * Example: OrderService - Verify if an order is valid based on available inventory:
+ * {@code
  * public boolean isOrderValid(Order order, Inventory inventory) {
  *    return inventory.hasEnoughStockFor(order.getItems());
  * }
- *
- * public BigDecimal calculateTotalPrice(Order order, PricingRules rules) {
- *    return rules.applyDiscounts(order.getItems());
  * }
+ * </p>
  *
- * This service can be used from a use case or from another domain service.
+ * <p>A domain service is injected directly, it is not defined as an output port.</p>
+ *
+ * <p>This service can be used from a use case or from another domain service.</p>
  */
 public class DomainService {
 }

@@ -1,11 +1,9 @@
 package com.cessadev.hexagonal_template.application.domain.ports.out;
 
 /**
- * It's used when the domain or a use case needs to interact with something external.
+ * <p>Output ports representing an external technical integration, such as sending an email to a user who has just registered.</p>
  *
- * Example: send an email to a user who has just registered.
- *
- * Its implementation goes in `infrastructure.external`.
+ * <p>Its implementation goes in `infrastructure.external`.</p>
  */
 public interface EmailServicePort {
 }

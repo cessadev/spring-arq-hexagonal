@@ -4,7 +4,7 @@ import com.cessadev.hexagonal_template.application.domain.ports.out.DomainCachin
 import org.springframework.stereotype.Component;
 
 /**
- * Implementation class (adapter) of the internal technical integration with Redis for caching.
+ * <p>Implementation class (adapter) of the internal technical integration with Redis for caching.</p>
  */
 @Component
 public class RedisDomainCacheAdapter implements DomainCachingPort {
