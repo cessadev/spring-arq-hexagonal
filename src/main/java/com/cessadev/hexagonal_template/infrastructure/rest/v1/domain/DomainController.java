@@ -5,6 +5,12 @@ import com.cessadev.hexagonal_template.infrastructure.config.mapper.DomainMapper
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * <p>REST Controller</p>
+ *
+ * <p>The controller accesses the application logic through the input ports.
+ * Utilities are also injected as mapping ports.</p>
+ */
 @RestController
 @RequestMapping("api/v1/domains")
 public class DomainController {
