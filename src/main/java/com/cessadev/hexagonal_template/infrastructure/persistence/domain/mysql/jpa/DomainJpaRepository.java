@@ -1,4 +1,4 @@
-package com.cessadev.hexagonal_template.infrastructure.persistence.domain.mysql;
+package com.cessadev.hexagonal_template.infrastructure.persistence.domain.mysql.jpa;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
