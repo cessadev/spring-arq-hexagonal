@@ -1,7 +1,7 @@
 package com.cessadev.hexagonal_template.infrastructure.rest.v1.domain;
 
 import com.cessadev.hexagonal_template.application.domain.ports.in.MethodDomainUseCase;
-import com.cessadev.hexagonal_template.infrastructure.config.mapper.DomainMapper;
+import com.cessadev.hexagonal_template.common.mapper.DomainMapper;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 

@@ -1,4 +1,4 @@
-package com.cessadev.hexagonal_template.infrastructure.config.exception;
+package com.cessadev.hexagonal_template.common.exception;
 
 import org.springframework.web.bind.annotation.ControllerAdvice;
 

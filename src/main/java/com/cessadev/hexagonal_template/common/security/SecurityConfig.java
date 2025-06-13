@@ -1,4 +1,4 @@
-package com.cessadev.hexagonal_template.infrastructure.config.security;
+package com.cessadev.hexagonal_template.common.security;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

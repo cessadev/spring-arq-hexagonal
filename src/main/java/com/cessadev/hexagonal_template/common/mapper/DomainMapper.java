@@ -1,4 +1,4 @@
-package com.cessadev.hexagonal_template.infrastructure.config.mapper;
+package com.cessadev.hexagonal_template.common.mapper;
 
 import org.mapstruct.Mapper;
 
